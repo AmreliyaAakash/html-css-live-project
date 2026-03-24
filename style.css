@@ -194,6 +194,10 @@
     padding-right: 3px;
   }
   
+  .toggle-nav {
+    display: none;
+  }
+  
   .toggle-nav i {
     font-size: 32px;
     text-align: center;
@@ -642,6 +646,7 @@
   
   .team-card {
     display: flex;
+    flex-wrap: wrap;
     height: 421.5px;
   }
   
@@ -709,7 +714,6 @@
   /* ======== Testimonial ======== */
   .Testimonial {
     margin-top: 80px;
-    left: 150px;
   }
   
   .a-d h5 {
@@ -828,6 +832,7 @@
   .our-platform{
     margin: 10px;
     gap: 10px;
+    justify-content: center;
   }
   .icon{
     border: solid var(--theme-white) 1px;
